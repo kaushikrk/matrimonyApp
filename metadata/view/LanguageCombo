@@ -1,0 +1,23 @@
+{
+    "type": "Ext.form.field.ComboBox",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "languageCombo",
+        "designer|userClassName": "LanguageCombo",
+        "fieldLabel": "Language",
+        "store": [
+            "[\"Hindi\",\"Marathi\",\"Bengali\",\"Telugu\",\"Kannada\",\"Tamil\",\"Malayalam\"]"
+        ]
+    },
+    "name": "MyComboBox7",
+    "configAlternates": {
+        "store": "array"
+    },
+    "designerId": "831a9061-13f7-432c-b2a9-c1a55741658c",
+    "viewControllerInstanceId": "eaa9a9c7-e8c6-4fa6-98b0-03ef0d34f053",
+    "viewModelInstanceId": "0ac69d16-8c91-4841-b240-ac2e1c955953"
+}

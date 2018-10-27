@@ -1,0 +1,374 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyPadding": 10,
+        "designer|uiInterfaceName": "green-panel",
+        "designer|userAlias": "registrationform",
+        "designer|userClassName": "RegistrationForm",
+        "floating": true,
+        "height": null,
+        "itemId": "registrationForm",
+        "modal": true,
+        "reference": "form",
+        "title": "Register",
+        "ui": "green-panel",
+        "width": null
+    },
+    "name": "MyForm2",
+    "designerId": "16a9dbbd-3e46-480f-859a-9678a312d30e",
+    "viewControllerInstanceId": "326f3d7b-f627-4552-bcc3-39eb9be3ee28",
+    "viewModelInstanceId": "15ebd390-0cd5-436d-a0fa-830ef37cf928",
+    "cn": [
+        {
+            "type": "Ext.form.field.Display",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "ID",
+                "hidden": true,
+                "name": "id"
+            },
+            "name": "MyDisplayField",
+            "designerId": "e79a927b-96c3-44ab-8059-8193d782f14b"
+        },
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Profile for",
+                "name": "profileType",
+                "regex": null,
+                "regexText": null,
+                "store": [
+                    "[\"Myself\",\"Son\",\"Daughter\",\"Brother\",\"Sister\",\"Friend\",\"Relative\"]"
+                ]
+            },
+            "name": "MyComboBox5",
+            "configAlternates": {
+                "store": "array"
+            },
+            "designerId": "60bc3491-bf7c-425b-b5a4-61f745394084"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Name",
+                "name": "name",
+                "regex": "/[A-Za-z]/",
+                "regexText": "Only Alphabets allowed"
+            },
+            "name": "MyTextField6",
+            "designerId": "3af24bea-998e-4fa7-b2be-e37fe76a5c20"
+        },
+        {
+            "type": "Ext.form.field.Number",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Age",
+                "invalidText": "Please enter valid age",
+                "maxValue": 60,
+                "minValue": 18,
+                "name": "age"
+            },
+            "name": "MyNumberField4",
+            "designerId": "186b60d2-f442-403b-b80a-c9159cfb5a0f"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "enforceMaxLength": true,
+                "fieldLabel": "Contact",
+                "itemId": null,
+                "maxLength": 10,
+                "name": "contactNumber",
+                "regex": "/\\d{10}/",
+                "regexText": "Enter a valid contact number"
+            },
+            "name": "MyTextField4",
+            "designerId": "bbc4e016-ac28-4583-9180-a85e53e8ee6e"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "enforceMaxLength": null,
+                "fieldLabel": "Email",
+                "itemId": null,
+                "maxLength": null,
+                "name": "emailAddress",
+                "regex": "/^\\w+@[a-zA-Z_]+?\\.[a-zA-Z]{2,3}$/",
+                "regexText": "Enter a valid email address"
+            },
+            "name": "MyTextField3",
+            "designerId": "50bb4f37-42ec-4015-94e4-d4101321f487"
+        },
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Gender",
+                "name": "gender",
+                "store": [
+                    "[\"Male\", \"Female\"]"
+                ]
+            },
+            "name": "MyComboBox4",
+            "configAlternates": {
+                "store": "array"
+            },
+            "designerId": "05cc9b71-2b60-4320-be07-fbbe36dffd0b"
+        },
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|createAlias": "languageCombo",
+                "fieldLabel": "Language",
+                "name": "language",
+                "store": null
+            },
+            "name": "MyComboBox8",
+            "configAlternates": {
+                "store": "array"
+            },
+            "designerId": "be5d4580-05a8-4f53-bd92-e0c65d10fa3c"
+        },
+        {
+            "type": "Ext.form.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Other Details",
+                "name": "otherDetails",
+                "width": 400
+            },
+            "name": "MyTextArea",
+            "designerId": "b5281f2e-7b4b-4b06-a74a-a059437205f2"
+        },
+        {
+            "type": "Ext.form.field.File",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Profile photo",
+                "layout|anchor": "100%",
+                "modal": null
+            },
+            "name": "MyFileUpload",
+            "designerId": "67443f41-f0f1-40ce-ae90-dd55344a0c61"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Password",
+                "inputType": "password",
+                "layout|anchor": null,
+                "regex": "/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,})/",
+                "regexText": "The password must contain one Upper case, one lower case and one numeric character and should be maximum 8 characters"
+            },
+            "name": "MyTextField7",
+            "designerId": "23396af6-1c43-4ce1-a357-6c585b17d84c"
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "middle",
+                "container|pack": "center",
+                "designer|displayName": "buttons",
+                "layout": "hbox",
+                "padding": 10
+            },
+            "name": "MyContainer1",
+            "designerId": "abc967ae-0f6c-4cc3-b2b6-bab907008e4b",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "loginbutton-small",
+                        "formBind": true,
+                        "itemId": "saveButton",
+                        "layout|flex": 1,
+                        "margin": "5 5 5 100",
+                        "text": "Register Free",
+                        "ui": "loginbutton-small"
+                    },
+                    "name": "MyButton2",
+                    "designerId": "70e72501-452d-4f2c-822e-30fa8081dc42",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onSave",
+                                "implHandler": [
+                                    "var form = this.getView(),",
+                                    "    values = form.getForm().getValues(),",
+                                    "    store = this.getStore('users');",
+                                    "",
+                                    "// Valid",
+                                    "if (form.isValid()) {",
+                                    "",
+                                    "    // TODO: Assign the record's ID from data source",
+                                    "    // Normally, this value would be auto-generated,",
+                                    "    // or returned from the server",
+                                    "    values.id = store.count() + 1;",
+                                    "",
+                                    "    // Save record",
+                                    "    store.add(values);",
+                                    "",
+                                    "    // Commit changes",
+                                    "    store.commitChanges();",
+                                    "",
+                                    "    // Complete",
+                                    "    form.close();",
+                                    "",
+                                    "}"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "name": "onSave",
+                            "designerId": "03162fa0-1631-40c6-93e2-728ba810c383"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "loginbutton-small",
+                        "itemId": "cancelButton",
+                        "layout|flex": 1,
+                        "margin": 5,
+                        "text": "Cancel",
+                        "ui": "loginbutton-small"
+                    },
+                    "name": "MyButton3",
+                    "designerId": "14d31e28-5e87-4508-a858-a05cb4279504",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onCancel",
+                                "implHandler": [
+                                    "var form = this.getView();",
+                                    "form.close();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "name": "onCancel",
+                            "designerId": "5598fdf2-95b3-4324-a5b8-63c723833659"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Tool",
+            "reference": {
+                "name": "tools",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "registrationExit",
+                "type": "close"
+            },
+            "name": "MyTool",
+            "designerId": "8707ebb5-324d-4057-b972-7c8660f11066",
+            "cn": [
+                {
+                    "type": "viewcontrollereventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onRegistrationExitClick",
+                        "implHandler": [
+                            "this.getView().close();"
+                        ],
+                        "name": "click",
+                        "scope": "me"
+                    },
+                    "name": "onRegistrationExitClick",
+                    "designerId": "5436a246-98a7-4c33-9970-493bdeb71a83"
+                }
+            ]
+        }
+    ]
+}

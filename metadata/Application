@@ -1,0 +1,25 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "User"
+        ],
+        "name": "MatrimonyApp",
+        "views": [
+            "MyViewport",
+            "HeaderPanel",
+            "RegistrationForm",
+            "SearchForm",
+            "LanguageCombo",
+            "MyPanel1",
+            "Carousel"
+        ]
+    },
+    "name": "Application",
+    "designerId": "application"
+}

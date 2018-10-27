@@ -1,0 +1,170 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "baseCls": null,
+        "bodyBorder": false,
+        "bodyCls": [
+            "header"
+        ],
+        "border": false,
+        "container|align": "stretch",
+        "designer|userAlias": "headerpanel",
+        "designer|userClassName": "HeaderPanel",
+        "header": false,
+        "headerOverCls": null,
+        "height": null,
+        "itemId": "HeaderPanel",
+        "layout": "hbox",
+        "overlapHeader": false,
+        "style": null,
+        "title": "MatrimonyApp"
+    },
+    "name": "MyPanel",
+    "designerId": "fcf59b08-36c0-4e49-8128-ede80802aff8",
+    "viewControllerInstanceId": "34d19501-81c0-4045-b185-d31eb450f016",
+    "viewModelInstanceId": "680b85d2-e1e6-444e-81e1-62ff9634c600",
+    "cn": [
+        {
+            "type": "Ext.form.Label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "border": 2,
+                "cls": [
+                    "header-title"
+                ],
+                "height": null,
+                "itemId": "siteTitle",
+                "layout|flex": 1,
+                "margin": 20,
+                "text": "Matrimony App"
+            },
+            "name": "MyLabel",
+            "designerId": "84d62787-c7be-4f58-bf38-b44849029a56"
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "border": null,
+                "defaults": [
+                    "{",
+                    "margin:2",
+                    "}"
+                ],
+                "layout": "table",
+                "layout|flex": null,
+                "margin": 5
+            },
+            "name": "MyContainer",
+            "designerId": "541e3ec7-5c80-4f9a-9e56-0cff0368dec0",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "blankText": null,
+                        "emptyText": "Username",
+                        "fieldLabel": null,
+                        "itemId": "userName",
+                        "labelAlign": "right",
+                        "labelCls": null
+                    },
+                    "name": "MyTextField",
+                    "designerId": "d10b7cf0-bd87-4cf5-8f26-ffe0668253fb"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "emptyText": "Password",
+                        "fieldLabel": null,
+                        "itemId": "password",
+                        "labelAlign": "right",
+                        "labelClsExtra": "header-label"
+                    },
+                    "name": "MyTextField1",
+                    "designerId": "987ef5c9-4866-434e-9238-d0d737fb70e3"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "baseCls": null,
+                        "cls": "login-button",
+                        "designer|uiInterfaceName": "loginbutton-small",
+                        "overCls": null,
+                        "text": "Login",
+                        "ui": "loginbutton-small"
+                    },
+                    "name": "MyButton",
+                    "designerId": "26c0a483-b089-4eac-a8f6-ab3a45a76cfb"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "baseCls": null,
+                        "cls": "login-button",
+                        "designer|uiInterfaceName": "loginbutton-small",
+                        "overCls": null,
+                        "text": "Register",
+                        "ui": "loginbutton-small"
+                    },
+                    "name": "MyButton4",
+                    "designerId": "9d7b911a-73ca-4848-a86e-ba547ee2cf45",
+                    "cn": [
+                        {
+                            "type": "viewcontrollereventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onRegister",
+                                "implHandler": [
+                                    "var form=Ext.create('MatrimonyApp.view.RegistrationForm');",
+                                    "console.log(form);",
+                                    "form.show();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "name": "onRegister",
+                            "designerId": "e0021e5d-dbec-4294-92d6-eb4e5c5efe0d"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

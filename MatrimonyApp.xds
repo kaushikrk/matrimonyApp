@@ -1,0 +1,70 @@
+{
+    "name": "MatrimonyApp",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "6.1.2.15",
+            "frameworkVersion": "6.0.2.437"
+        },
+        "urlPrefix": "http://localhost:1841/",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "3.5.1",
+    "xdsBuild": 348,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "ext60",
+    "viewOrderMap": {
+        "view": [
+            "afd7218b-7fea-44e7-ac22-58e68c2a9197",
+            "5a3e09e7-0129-46cf-bff7-a329a8d79361",
+            "d7a2587d-fd92-41f7-aeb7-dd755fd990be",
+            "fcf59b08-36c0-4e49-8128-ede80802aff8",
+            "680b85d2-e1e6-444e-81e1-62ff9634c600",
+            "34d19501-81c0-4045-b185-d31eb450f016",
+            "16a9dbbd-3e46-480f-859a-9678a312d30e",
+            "15ebd390-0cd5-436d-a0fa-830ef37cf928",
+            "326f3d7b-f627-4552-bcc3-39eb9be3ee28",
+            "7cc4f0cf-f2fa-4976-bd4b-89ccb1790507",
+            "d351dcb5-093b-4286-a9b0-c26eec43eaaa",
+            "064ecf38-20ca-4aeb-9f81-313a95c4d3ee",
+            "831a9061-13f7-432c-b2a9-c1a55741658c",
+            "0ac69d16-8c91-4841-b240-ac2e1c955953",
+            "eaa9a9c7-e8c6-4fa6-98b0-03ef0d34f053",
+            "e0c5ae63-9d07-4687-8a9a-e5dec30334d6",
+            "3609e4ac-dae7-42c8-8dc9-b88074c31793",
+            "f86281f7-ff90-46c6-ab49-7e7a184e8238",
+            "29a18864-5462-4d61-a15d-95745212f0e4",
+            "f0f847b4-cf0c-4f68-9453-ba0710538eb2",
+            "904428f1-0818-4b8d-98bb-4955fea5ab7b"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [
+            "ef01d801-bcff-40f5-9d31-9bbc83c9dda4"
+        ],
+        "resource": [
+            "b81f614e-8a68-4fe1-a200-ae0f0f6e0997",
+            "2f27debc-62ac-4179-9a73-a2881b2cd8d7",
+            "35218be9-3c2a-4591-acc9-2467029125dd"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

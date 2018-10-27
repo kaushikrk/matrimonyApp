@@ -1,0 +1,13 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "registrationform",
+        "designer|userClassName": "RegistrationFormViewController"
+    },
+    "designerId": "326f3d7b-f627-4552-bcc3-39eb9be3ee28"
+}

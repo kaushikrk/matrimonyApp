@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "htmlcarousel",
+        "designer|userClassName": "CarouselViewController"
+    },
+    "name": "MyContainerViewController",
+    "designerId": "f0f847b4-cf0c-4f68-9453-ba0710538eb2"
+}

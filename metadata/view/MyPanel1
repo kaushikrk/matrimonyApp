@@ -1,0 +1,28 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyCls": [
+            "header"
+        ],
+        "defaults": [
+            "{",
+            "margin:2",
+            "}"
+        ],
+        "designer|userAlias": "mypanel11",
+        "designer|userClassName": "MyPanel1",
+        "header": false,
+        "height": 150,
+        "itemId": "FooterPanel",
+        "title": "My Panel"
+    },
+    "name": "MyPanel1",
+    "designerId": "e0c5ae63-9d07-4687-8a9a-e5dec30334d6",
+    "viewControllerInstanceId": "f86281f7-ff90-46c6-ab49-7e7a184e8238",
+    "viewModelInstanceId": "3609e4ac-dae7-42c8-8dc9-b88074c31793"
+}

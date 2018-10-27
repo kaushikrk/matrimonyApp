@@ -1,0 +1,13 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "languagecombo",
+        "designer|userClassName": "LanguageComboViewController"
+    },
+    "designerId": "eaa9a9c7-e8c6-4fa6-98b0-03ef0d34f053"
+}

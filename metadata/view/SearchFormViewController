@@ -1,0 +1,13 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "searchform",
+        "designer|userClassName": "SearchFormViewController"
+    },
+    "designerId": "064ecf38-20ca-4aeb-9f81-313a95c4d3ee"
+}

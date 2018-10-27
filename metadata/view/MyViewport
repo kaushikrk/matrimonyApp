@@ -1,0 +1,81 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "myviewport",
+        "designer|userClassName": "MyViewport",
+        "layout": "border"
+    },
+    "name": "MyViewport",
+    "designerId": "afd7218b-7fea-44e7-ac22-58e68c2a9197",
+    "viewControllerInstanceId": "d7a2587d-fd92-41f7-aeb7-dd755fd990be",
+    "viewModelInstanceId": "5a3e09e7-0129-46cf-bff7-a329a8d79361",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "layout|region": "north"
+            },
+            "name": "headerpanel",
+            "designerId": "1115ecd0-9bbb-465f-8879-a08b970cf1fa",
+            "masterInstanceId": "fcf59b08-36c0-4e49-8128-ede80802aff8"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 0.5,
+                "layout|region": "south"
+            },
+            "name": "mypanel12",
+            "designerId": "a4100892-070d-41a3-9484-a186728dd4c3",
+            "masterInstanceId": "e0c5ae63-9d07-4687-8a9a-e5dec30334d6"
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "frameHeader": false,
+                "header": false,
+                "itemId": "MainPanel",
+                "layout|flex": 8,
+                "layout|region": "center",
+                "title": "My Panel"
+            },
+            "name": "MyPanel2",
+            "designerId": "477a87f3-8e58-4dd8-9609-5ae240c4aafb",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "name": "carousel",
+                    "designerId": "3eac01ac-6836-47c2-8729-5e7fc82068ba",
+                    "masterInstanceId": "904428f1-0818-4b8d-98bb-4955fea5ab7b"
+                }
+            ]
+        }
+    ]
+}
