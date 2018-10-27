@@ -21,7 +21,6 @@ Ext.define('MatrimonyApp.view.MyViewport', {
         'MatrimonyApp.view.MyViewportViewModel',
         'MatrimonyApp.view.HeaderPanel',
         'MatrimonyApp.view.MyPanel1',
-        'MatrimonyApp.view.Carousel',
         'Ext.panel.Panel'
     ],
 
@@ -48,12 +47,7 @@ Ext.define('MatrimonyApp.view.MyViewport', {
             itemId: 'MainPanel',
             frameHeader: false,
             header: false,
-            title: 'My Panel',
-            items: [
-                {
-                    xtype: 'htmlCarousel'
-                }
-            ]
+            title: 'My Panel'
         }
     ]
 

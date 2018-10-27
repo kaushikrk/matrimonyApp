@@ -29,8 +29,7 @@ Ext.application({
         'RegistrationForm',
         'SearchForm',
         'LanguageCombo',
-        'MyPanel1',
-        'Carousel'
+        'MyPanel1'
     ],
     name: 'MatrimonyApp',
 

@@ -62,20 +62,7 @@
                 "title": "My Panel"
             },
             "name": "MyPanel2",
-            "designerId": "477a87f3-8e58-4dd8-9609-5ae240c4aafb",
-            "cn": [
-                {
-                    "type": "linkedinstance",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "name": "carousel",
-                    "designerId": "3eac01ac-6836-47c2-8729-5e7fc82068ba",
-                    "masterInstanceId": "904428f1-0818-4b8d-98bb-4955fea5ab7b"
-                }
-            ]
+            "designerId": "477a87f3-8e58-4dd8-9609-5ae240c4aafb"
         }
     ]
 }

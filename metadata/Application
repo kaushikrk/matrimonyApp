@@ -16,8 +16,7 @@
             "RegistrationForm",
             "SearchForm",
             "LanguageCombo",
-            "MyPanel1",
-            "Carousel"
+            "MyPanel1"
         ]
     },
     "name": "Application",
