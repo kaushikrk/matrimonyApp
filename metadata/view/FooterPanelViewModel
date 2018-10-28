@@ -7,7 +7,7 @@
     "codeClass": null,
     "userConfig": {
         "designer|userAlias": "mypanel11",
-        "designer|userClassName": "MyPanel1ViewModel"
+        "designer|userClassName": "FooterPanelViewModel"
     },
     "designerId": "3609e4ac-dae7-42c8-8dc9-b88074c31793"
 }

@@ -42,7 +42,7 @@
                 "layout|flex": 0.5,
                 "layout|region": "south"
             },
-            "name": "mypanel12",
+            "name": "footerpanel",
             "designerId": "a4100892-070d-41a3-9484-a186728dd4c3",
             "masterInstanceId": "e0c5ae63-9d07-4687-8a9a-e5dec30334d6"
         },

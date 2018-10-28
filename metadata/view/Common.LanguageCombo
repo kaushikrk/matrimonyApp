@@ -7,7 +7,7 @@
     "codeClass": null,
     "userConfig": {
         "designer|userAlias": "languageCombo",
-        "designer|userClassName": "LanguageCombo",
+        "designer|userClassName": "Common.LanguageCombo",
         "fieldLabel": "Language",
         "store": [
             "[\"Hindi\",\"Marathi\",\"Bengali\",\"Telugu\",\"Kannada\",\"Tamil\",\"Malayalam\"]"

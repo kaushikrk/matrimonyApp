@@ -1,0 +1,13 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "common.religioncombo",
+        "designer|userClassName": "Common.ReligionComboViewModel"
+    },
+    "designerId": "97fb5670-0feb-430d-bcb7-746094128d4d"
+}

@@ -20,7 +20,7 @@ Ext.define('MatrimonyApp.view.MyViewport', {
     requires: [
         'MatrimonyApp.view.MyViewportViewModel',
         'MatrimonyApp.view.HeaderPanel',
-        'MatrimonyApp.view.MyPanel1',
+        'MatrimonyApp.view.FooterPanel',
         'Ext.panel.Panel'
     ],
 
@@ -36,7 +36,7 @@ Ext.define('MatrimonyApp.view.MyViewport', {
             region: 'north'
         },
         {
-            xtype: 'mypanel11',
+            xtype: 'footerPanel',
             flex: 0.5,
             region: 'south'
         },

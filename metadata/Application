@@ -15,8 +15,9 @@
             "HeaderPanel",
             "RegistrationForm",
             "SearchForm",
-            "LanguageCombo",
-            "MyPanel1"
+            "Common.LanguageCombo",
+            "FooterPanel",
+            "Common.ReligionCombo"
         ]
     },
     "name": "Application",

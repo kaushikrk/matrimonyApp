@@ -19,13 +19,15 @@ Ext.define('MatrimonyApp.model.User', {
 
     requires: [
         'Ext.data.field.Integer',
-        'Ext.data.field.String'
+        'Ext.data.field.String',
+        'Ext.data.proxy.Rest',
+        'Ext.data.reader.Json'
     ],
 
     fields: [
         {
             type: 'int',
-            name: 'id'
+            name: 'userId'
         },
         {
             name: 'name'
@@ -38,14 +40,32 @@ Ext.define('MatrimonyApp.model.User', {
         },
         {
             type: 'string',
-            name: 'state'
-        },
-        {
-            type: 'string',
             name: 'otherDetails'
         },
         {
             name: 'profilePhoto'
+        },
+        {
+            name: 'contactNumber'
+        },
+        {
+            name: 'emailAddress'
+        },
+        {
+            name: 'religion'
+        },
+        {
+            name: 'language'
         }
-    ]
+    ],
+
+    proxy: {
+        type: 'rest',
+        url: '/user/register',
+        reader: {
+            type: 'json',
+            messageProperty: 'message',
+            rootProperty: 'data'
+        }
+    }
 });

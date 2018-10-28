@@ -19,7 +19,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "id"
+                "name": "userId"
             },
             "name": "MyInteger",
             "designerId": "9ca4b272-35d3-4011-9cc8-2ab98990cd49"
@@ -71,19 +71,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "state"
-            },
-            "name": "MyString",
-            "designerId": "0b6e8022-144a-43f7-a9d8-cb10cb148c23"
-        },
-        {
-            "type": "Ext.data.field.String",
-            "reference": {
-                "name": "fields",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
                 "name": "otherDetails"
             },
             "name": "MyString1",
@@ -101,6 +88,89 @@
             },
             "name": "MyField3",
             "designerId": "aa9ae3b6-1598-48f3-b783-c11f32c41765"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "contactNumber"
+            },
+            "name": "MyField4",
+            "designerId": "54800758-167a-45f7-b1b1-c6e7e6dddaa4"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "emailAddress"
+            },
+            "name": "MyField5",
+            "designerId": "f5690d42-1a35-4d53-b0a2-cbffad057dd1"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "religion"
+            },
+            "name": "MyField6",
+            "designerId": "4fb4a5ef-bf7f-44c5-b656-0a6ea8e3a59e"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "language"
+            },
+            "name": "MyField7",
+            "designerId": "544463ad-bb8f-4164-9e64-e7c319d5cda5"
+        },
+        {
+            "type": "Ext.data.proxy.Rest",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "/user/register",
+                "withCredentials": null
+            },
+            "name": "MyRestProxy1",
+            "designerId": "0be0ee9f-f85f-4652-bf8f-477cafbb5771",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "messageProperty": "message",
+                        "rootProperty": "data",
+                        "successProperty": null
+                    },
+                    "name": "MyJsonReader",
+                    "designerId": "936b27ab-163b-489b-b64f-b5495c158464"
+                }
+            ]
         }
     ]
 }

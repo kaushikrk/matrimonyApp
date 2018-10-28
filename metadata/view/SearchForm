@@ -153,23 +153,15 @@
                     "designerId": "e851de05-a40d-4cce-86de-9347fea24fbf"
                 },
                 {
-                    "type": "Ext.form.field.ComboBox",
+                    "type": "linkedinstance",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
-                    "userConfig": {
-                        "fieldLabel": "Religion",
-                        "store": [
-                            "[\"Hindu\",\"Muslim\",\"Christian\",\"Jew\"]"
-                        ]
-                    },
-                    "name": "MyComboBox6",
-                    "configAlternates": {
-                        "store": "array"
-                    },
-                    "designerId": "e2d7f261-1e40-494d-96a9-adbed3c1760f"
+                    "name": "common.religioncombo",
+                    "designerId": "1db0034b-daf2-4492-a396-164905e643a3",
+                    "masterInstanceId": "9c000038-f529-48e8-8fed-1e1b92f60d8f"
                 },
                 {
                     "type": "linkedinstance",
@@ -178,7 +170,7 @@
                         "type": "array"
                     },
                     "codeClass": null,
-                    "name": "languagecombo",
+                    "name": "common.languagecombo",
                     "designerId": "b48ec044-32e5-4f43-85c9-56c3e7b5a2aa",
                     "masterInstanceId": "831a9061-13f7-432c-b2a9-c1a55741658c"
                 }

@@ -27,6 +27,7 @@ Ext.define('MatrimonyApp.view.RegistrationForm', {
         'Ext.form.field.File',
         'Ext.container.Container',
         'Ext.button.Button',
+        'Ext.form.Label',
         'Ext.panel.Tool'
     ],
 
@@ -90,9 +91,7 @@ Ext.define('MatrimonyApp.view.RegistrationForm', {
         {
             xtype: 'textfield',
             fieldLabel: 'Email',
-            name: 'emailAddress',
-            regex: /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/,
-            regexText: 'Enter a valid email address'
+            name: 'emailAddress'
         },
         {
             xtype: 'combobox',
@@ -109,6 +108,12 @@ Ext.define('MatrimonyApp.view.RegistrationForm', {
             name: 'language'
         },
         {
+            xtype: 'religionCombo',
+            fieldLabel: 'Religion',
+            name: 'religion',
+            allowBlank: false
+        },
+        {
             xtype: 'textareafield',
             width: 400,
             fieldLabel: 'Other Details',
@@ -122,6 +127,7 @@ Ext.define('MatrimonyApp.view.RegistrationForm', {
         {
             xtype: 'textfield',
             fieldLabel: 'Password',
+            name: 'password',
             inputType: 'password',
             regex: /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,})/,
             regexText: 'The password must contain one Upper case, one lower case and one numeric character and should be maximum 8 characters'
@@ -144,7 +150,7 @@ Ext.define('MatrimonyApp.view.RegistrationForm', {
                     ui: 'loginbutton-small',
                     text: 'Register Free',
                     listeners: {
-                        click: 'onSave'
+                        click: 'onRegistrationClick'
                     }
                 },
                 {
@@ -159,6 +165,20 @@ Ext.define('MatrimonyApp.view.RegistrationForm', {
                     }
                 }
             ]
+        },
+        {
+            xtype: 'box',
+            hidden: true,
+            itemId: 'successMessage',
+            bind: {
+                html: '<b style="color:green">Registration successful</b><br><b style="color:green">Registration id is {registrationId}</b>'
+            }
+        },
+        {
+            xtype: 'box',
+            hidden: true,
+            html: '<b style="color:red">Registration failed</b>',
+            itemId: 'failureMessage'
         }
     ],
     tools: [

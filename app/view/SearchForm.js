@@ -19,7 +19,8 @@ Ext.define('MatrimonyApp.view.SearchForm', {
 
     requires: [
         'MatrimonyApp.view.SearchFormViewModel',
-        'MatrimonyApp.view.LanguageCombo',
+        'MatrimonyApp.view.Common.ReligionCombo',
+        'MatrimonyApp.view.Common.LanguageCombo',
         'Ext.form.Panel',
         'Ext.form.field.ComboBox',
         'Ext.toolbar.Spacer',
@@ -103,14 +104,7 @@ Ext.define('MatrimonyApp.view.SearchForm', {
                     ]
                 },
                 {
-                    xtype: 'combobox',
-                    fieldLabel: 'Religion',
-                    store: [
-                        'Hindu',
-                        'Muslim',
-                        'Christian',
-                        'Jew'
-                    ]
+                    xtype: 'religionCombo'
                 },
                 {
                     xtype: 'languageCombo'

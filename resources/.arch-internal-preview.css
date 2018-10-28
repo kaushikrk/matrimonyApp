@@ -20248,56 +20248,1139 @@ div.x-border-layout-ct {
     border-width: 1px;
     border-style: solid;
 }
-/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:669 */
-.x-panel-header-green-panel {
-    background-image: none;
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-green-panel {
+    -webkit-border-radius: 0.5;
+    -moz-border-radius: 0.5;
+    -ms-border-radius: 0.5;
+    -o-border-radius: 0.5;
+    border-radius: 0.5;
+    padding: 0px 0px 0px 0px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #fff;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-green-panel-mc {
+    background-color: #fff;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-green-panel {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-green-panel-frameInfo {
+    font-family: dh-1-1-1-1-1-1-1-1-0-0-0-0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-green-panel-tl {
+    background-position: 0 -2px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-green-panel-tr {
+    background-position: right -3px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-green-panel-bl {
+    background-position: 0 -4px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-green-panel-br {
+    background-position: right -5px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-green-panel-ml {
+    background-position: 0 top;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-green-panel-mr {
+    background-position: right top;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-green-panel-tc {
+    background-position: 0 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-green-panel-bc {
+    background-position: 0 -1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-green-panel-tr,
+.x-panel-green-panel-br,
+.x-panel-green-panel-mr {
+    padding-right: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-green-panel-tl,
+.x-panel-green-panel-bl,
+.x-panel-green-panel-ml {
+    padding-left: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-green-panel-tc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-green-panel-bc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-green-panel-tl,
+.x-panel-green-panel-bl,
+.x-panel-green-panel-tr,
+.x-panel-green-panel-br,
+.x-panel-green-panel-tc,
+.x-panel-green-panel-bc,
+.x-panel-green-panel-ml,
+.x-panel-green-panel-mr {
+    background-image: url(images/panel/panel-green-panel-corners.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-green-panel-ml,
+.x-panel-green-panel-mr {
+    background-image: url(images/panel/panel-green-panel-sides.gif);
+    background-repeat: repeat-y;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-green-panel-mc {
+    padding: 0px 0px 0px 0px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-panel-green-panel:before {
+    display: none;
+    content: "x-slicer:, frame:1px 1px 1px 1px, corners:url(images/panel/panel-green-panel-corners.gif), sides:url(images/panel/panel-green-panel-sides.gif)" !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-green-panel-top {
+    -moz-border-radius-topleft: 0.5;
+    -webkit-border-top-left-radius: 0.5;
+    border-top-left-radius: 0.5;
+    -moz-border-radius-topright: 0.5;
+    -webkit-border-top-right-radius: 0.5;
+    border-top-right-radius: 0.5;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 9px 9px 10px 9px;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
     background-color: #060;
 }
-/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:673 */
-.x-panel-header-green-panel-vertical {
-    background-image: none;
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-green-panel-top-mc {
     background-color: #060;
 }
-/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:678 */
-.x-rtl.x-panel-header-green-panel-vertical {
-    background-image: none;
-    background-color: #060;
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-green-panel-top {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
 }
-/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:731 */
-.x-panel .x-panel-header-green-panel-collapsed-border-top {
-    border-bottom-width: 1px !important;
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-green-panel-top-frameInfo {
+    font-family: dh-1-1-0-1-1-1-0-1-9-9-10-9;
 }
-/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:735 */
-.x-panel .x-panel-header-green-panel-collapsed-border-right {
-    border-left-width: 1px !important;
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-green-panel-top-tl {
+    background-position: 0 -2px;
 }
-/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:739 */
-.x-panel .x-panel-header-green-panel-collapsed-border-bottom {
-    border-top-width: 1px !important;
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-green-panel-top-tr {
+    background-position: right -3px;
 }
-/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:743 */
-.x-panel .x-panel-header-green-panel-collapsed-border-left {
-    border-right-width: 1px !important;
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-green-panel-top-bl {
+    background-position: 0 -4px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-green-panel-top-br {
+    background-position: right -5px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-green-panel-top-ml {
+    background-position: 0 top;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-green-panel-top-mr {
+    background-position: right top;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-green-panel-top-tc {
+    background-position: 0 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-green-panel-top-bc {
+    background-position: 0 -1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-green-panel-top-tr,
+.x-panel-header-green-panel-top-br,
+.x-panel-header-green-panel-top-mr {
+    padding-right: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-green-panel-top-tl,
+.x-panel-header-green-panel-top-bl,
+.x-panel-header-green-panel-top-ml {
+    padding-left: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-green-panel-top-tc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-green-panel-top-bc {
+    height: 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-green-panel-top-tl,
+.x-panel-header-green-panel-top-bl,
+.x-panel-header-green-panel-top-tr,
+.x-panel-header-green-panel-top-br,
+.x-panel-header-green-panel-top-tc,
+.x-panel-header-green-panel-top-bc,
+.x-panel-header-green-panel-top-ml,
+.x-panel-header-green-panel-top-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-top-corners.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-green-panel-top-ml,
+.x-panel-header-green-panel-top-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-top-sides.gif);
+    background-repeat: repeat-y;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-green-panel-top-mc {
+    padding: 9px 9px 10px 9px;
 }
 /* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-panel-header-green-panel-top:before {
     display: none;
-    content: "x-slicer:, stretch:bottom" !important;
+    content: "x-slicer:, frame:1px 1px 0 1px, corners:url(images/panel-header/panel-header-green-panel-top-corners.gif), sides:url(images/panel-header/panel-header-green-panel-top-sides.gif)" !important;
 }
-/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-green-panel-bottom:before {
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-green-panel-right {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0.5;
+    -webkit-border-top-right-radius: 0.5;
+    border-top-right-radius: 0.5;
+    -moz-border-radius-bottomright: 0.5;
+    -webkit-border-bottom-right-radius: 0.5;
+    border-bottom-right-radius: 0.5;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 9px 9px 9px 10px;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    background-color: #060;
 }
-/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-green-panel-left:before {
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:226 */
+.x-rtl.x-panel-header-green-panel-right {
+    background-image: none;
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-green-panel-right-mc {
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-green-panel-right {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-green-panel-right-frameInfo {
+    font-family: dh-1-1-1-0-1-1-1-0-9-9-9-10;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-green-panel-right-tl {
+    background-position: 0 -2px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-green-panel-right-tr {
+    background-position: right -3px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-green-panel-right-bl {
+    background-position: 0 -4px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-green-panel-right-br {
+    background-position: right -5px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-green-panel-right-ml {
+    background-position: right 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-green-panel-right-mr {
+    background-position: right 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-green-panel-right-tc {
+    background-position: 0 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-green-panel-right-bc {
+    background-position: 0 -1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-green-panel-right-tr,
+.x-panel-header-green-panel-right-br,
+.x-panel-header-green-panel-right-mr {
+    padding-right: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-green-panel-right-tl,
+.x-panel-header-green-panel-right-bl,
+.x-panel-header-green-panel-right-ml {
+    padding-left: 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-green-panel-right-tc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-green-panel-right-bc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-green-panel-right-tl,
+.x-panel-header-green-panel-right-bl,
+.x-panel-header-green-panel-right-tr,
+.x-panel-header-green-panel-right-br,
+.x-panel-header-green-panel-right-tc,
+.x-panel-header-green-panel-right-bc,
+.x-panel-header-green-panel-right-ml,
+.x-panel-header-green-panel-right-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-right-corners.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:423 */
+.x-rtl.x-panel-header-green-panel-right-tl,
+.x-rtl.x-panel-header-green-panel-right-ml,
+.x-rtl.x-panel-header-green-panel-right-bl,
+.x-rtl.x-panel-header-green-panel-right-tr,
+.x-rtl.x-panel-header-green-panel-right-mr,
+.x-rtl.x-panel-header-green-panel-right-br {
+    background-image: url(images/panel-header/panel-header-green-panel-right-corners-rtl.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-green-panel-right-ml,
+.x-panel-header-green-panel-right-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-right-sides.gif);
+    background-repeat: repeat-y;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-green-panel-right-mc {
+    padding: 9px 9px 9px 10px;
 }
 /* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
 .x-cmd-slicer.x-panel-header-green-panel-right:before {
     display: none;
-    content: "x-slicer:, stretch:left" !important;
+    content: "x-slicer:, frame:1px 1px 1px 0, corners:url(images/panel-header/panel-header-green-panel-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-green-panel-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-green-panel-right-sides.gif)" !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-green-panel-bottom {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0.5;
+    -webkit-border-bottom-right-radius: 0.5;
+    border-bottom-right-radius: 0.5;
+    -moz-border-radius-bottomleft: 0.5;
+    -webkit-border-bottom-left-radius: 0.5;
+    border-bottom-left-radius: 0.5;
+    padding: 9px 9px 10px 9px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-green-panel-bottom-mc {
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-green-panel-bottom {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-green-panel-bottom-frameInfo {
+    font-family: dh-0-1-1-1-0-1-1-1-9-9-10-9;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-green-panel-bottom-tl {
+    background-position: 0 -2px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-green-panel-bottom-tr {
+    background-position: right -3px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-green-panel-bottom-bl {
+    background-position: 0 -4px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-green-panel-bottom-br {
+    background-position: right -5px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-green-panel-bottom-ml {
+    background-position: 0 bottom;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-green-panel-bottom-mr {
+    background-position: right bottom;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-green-panel-bottom-tc {
+    background-position: 0 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-green-panel-bottom-bc {
+    background-position: 0 -1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-green-panel-bottom-tr,
+.x-panel-header-green-panel-bottom-br,
+.x-panel-header-green-panel-bottom-mr {
+    padding-right: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-green-panel-bottom-tl,
+.x-panel-header-green-panel-bottom-bl,
+.x-panel-header-green-panel-bottom-ml {
+    padding-left: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-green-panel-bottom-tc {
+    height: 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-green-panel-bottom-bc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-green-panel-bottom-tl,
+.x-panel-header-green-panel-bottom-bl,
+.x-panel-header-green-panel-bottom-tr,
+.x-panel-header-green-panel-bottom-br,
+.x-panel-header-green-panel-bottom-tc,
+.x-panel-header-green-panel-bottom-bc,
+.x-panel-header-green-panel-bottom-ml,
+.x-panel-header-green-panel-bottom-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-bottom-corners.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-green-panel-bottom-ml,
+.x-panel-header-green-panel-bottom-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-bottom-sides.gif);
+    background-repeat: repeat-y;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-green-panel-bottom-mc {
+    padding: 9px 9px 10px 9px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-panel-header-green-panel-bottom:before {
+    display: none;
+    content: "x-slicer:, frame:0 1px 1px 1px, corners:url(images/panel-header/panel-header-green-panel-bottom-corners.gif), sides:url(images/panel-header/panel-header-green-panel-bottom-sides.gif)" !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-green-panel-left {
+    -moz-border-radius-topleft: 0.5;
+    -webkit-border-top-left-radius: 0.5;
+    border-top-left-radius: 0.5;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0.5;
+    -webkit-border-bottom-left-radius: 0.5;
+    border-bottom-left-radius: 0.5;
+    padding: 9px 9px 9px 10px;
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:226 */
+.x-rtl.x-panel-header-green-panel-left {
+    background-image: none;
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-green-panel-left-mc {
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-green-panel-left {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-green-panel-left-frameInfo {
+    font-family: dh-1-0-1-1-1-0-1-1-9-9-9-10;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-green-panel-left-tl {
+    background-position: 0 -2px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-green-panel-left-tr {
+    background-position: right -3px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-green-panel-left-bl {
+    background-position: 0 -4px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-green-panel-left-br {
+    background-position: right -5px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-green-panel-left-ml {
+    background-position: left 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-green-panel-left-mr {
+    background-position: left 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-green-panel-left-tc {
+    background-position: 0 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-green-panel-left-bc {
+    background-position: 0 -1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-green-panel-left-tr,
+.x-panel-header-green-panel-left-br,
+.x-panel-header-green-panel-left-mr {
+    padding-right: 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-green-panel-left-tl,
+.x-panel-header-green-panel-left-bl,
+.x-panel-header-green-panel-left-ml {
+    padding-left: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-green-panel-left-tc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-green-panel-left-bc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-green-panel-left-tl,
+.x-panel-header-green-panel-left-bl,
+.x-panel-header-green-panel-left-tr,
+.x-panel-header-green-panel-left-br,
+.x-panel-header-green-panel-left-tc,
+.x-panel-header-green-panel-left-bc,
+.x-panel-header-green-panel-left-ml,
+.x-panel-header-green-panel-left-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-left-corners.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:423 */
+.x-rtl.x-panel-header-green-panel-left-tl,
+.x-rtl.x-panel-header-green-panel-left-ml,
+.x-rtl.x-panel-header-green-panel-left-bl,
+.x-rtl.x-panel-header-green-panel-left-tr,
+.x-rtl.x-panel-header-green-panel-left-mr,
+.x-rtl.x-panel-header-green-panel-left-br {
+    background-image: url(images/panel-header/panel-header-green-panel-left-corners-rtl.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-green-panel-left-ml,
+.x-panel-header-green-panel-left-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-left-sides.gif);
+    background-repeat: repeat-y;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-green-panel-left-mc {
+    padding: 9px 9px 9px 10px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-panel-header-green-panel-left:before {
+    display: none;
+    content: "x-slicer:, frame:1px 0 1px 1px, corners:url(images/panel-header/panel-header-green-panel-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-green-panel-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-green-panel-left-sides.gif)" !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-green-panel-collapsed-top {
+    -moz-border-radius-topleft: 0.5;
+    -webkit-border-top-left-radius: 0.5;
+    border-top-left-radius: 0.5;
+    -moz-border-radius-topright: 0.5;
+    -webkit-border-top-right-radius: 0.5;
+    border-top-right-radius: 0.5;
+    -moz-border-radius-bottomright: 0.5;
+    -webkit-border-bottom-right-radius: 0.5;
+    border-bottom-right-radius: 0.5;
+    -moz-border-radius-bottomleft: 0.5;
+    -webkit-border-bottom-left-radius: 0.5;
+    border-bottom-left-radius: 0.5;
+    padding: 9px 9px 10px 9px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-green-panel-collapsed-top-mc {
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-green-panel-collapsed-top {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-green-panel-collapsed-top-frameInfo {
+    font-family: dh-1-1-1-1-1-1-1-1-9-9-10-9;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-green-panel-collapsed-top-tl {
+    background-position: 0 -2px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-green-panel-collapsed-top-tr {
+    background-position: right -3px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-green-panel-collapsed-top-bl {
+    background-position: 0 -4px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-green-panel-collapsed-top-br {
+    background-position: right -5px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-green-panel-collapsed-top-ml {
+    background-position: 0 top;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-green-panel-collapsed-top-mr {
+    background-position: right top;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-green-panel-collapsed-top-tc {
+    background-position: 0 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-green-panel-collapsed-top-bc {
+    background-position: 0 -1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-green-panel-collapsed-top-tr,
+.x-panel-header-green-panel-collapsed-top-br,
+.x-panel-header-green-panel-collapsed-top-mr {
+    padding-right: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-green-panel-collapsed-top-tl,
+.x-panel-header-green-panel-collapsed-top-bl,
+.x-panel-header-green-panel-collapsed-top-ml {
+    padding-left: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-green-panel-collapsed-top-tc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-green-panel-collapsed-top-bc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-green-panel-collapsed-top-tl,
+.x-panel-header-green-panel-collapsed-top-bl,
+.x-panel-header-green-panel-collapsed-top-tr,
+.x-panel-header-green-panel-collapsed-top-br,
+.x-panel-header-green-panel-collapsed-top-tc,
+.x-panel-header-green-panel-collapsed-top-bc,
+.x-panel-header-green-panel-collapsed-top-ml,
+.x-panel-header-green-panel-collapsed-top-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-collapsed-top-corners.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-green-panel-collapsed-top-ml,
+.x-panel-header-green-panel-collapsed-top-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-collapsed-top-sides.gif);
+    background-repeat: repeat-y;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-green-panel-collapsed-top-mc {
+    padding: 9px 9px 10px 9px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-panel-header-green-panel-collapsed-top:before {
+    display: none;
+    content: "x-slicer:, frame:1px 1px 1px 1px, corners:url(images/panel-header/panel-header-green-panel-collapsed-top-corners.gif), sides:url(images/panel-header/panel-header-green-panel-collapsed-top-sides.gif)" !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-green-panel-collapsed-right {
+    -moz-border-radius-topleft: 0.5;
+    -webkit-border-top-left-radius: 0.5;
+    border-top-left-radius: 0.5;
+    -moz-border-radius-topright: 0.5;
+    -webkit-border-top-right-radius: 0.5;
+    border-top-right-radius: 0.5;
+    -moz-border-radius-bottomright: 0.5;
+    -webkit-border-bottom-right-radius: 0.5;
+    border-bottom-right-radius: 0.5;
+    -moz-border-radius-bottomleft: 0.5;
+    -webkit-border-bottom-left-radius: 0.5;
+    border-bottom-left-radius: 0.5;
+    padding: 9px 9px 9px 10px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:226 */
+.x-rtl.x-panel-header-green-panel-collapsed-right {
+    background-image: none;
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-green-panel-collapsed-right-mc {
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-green-panel-collapsed-right {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-green-panel-collapsed-right-frameInfo {
+    font-family: dh-1-1-1-1-1-1-1-1-9-9-9-10;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-green-panel-collapsed-right-tl {
+    background-position: 0 -2px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-green-panel-collapsed-right-tr {
+    background-position: right -3px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-green-panel-collapsed-right-bl {
+    background-position: 0 -4px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-green-panel-collapsed-right-br {
+    background-position: right -5px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-green-panel-collapsed-right-ml {
+    background-position: right 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-green-panel-collapsed-right-mr {
+    background-position: right 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-green-panel-collapsed-right-tc {
+    background-position: 0 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-green-panel-collapsed-right-bc {
+    background-position: 0 -1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-green-panel-collapsed-right-tr,
+.x-panel-header-green-panel-collapsed-right-br,
+.x-panel-header-green-panel-collapsed-right-mr {
+    padding-right: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-green-panel-collapsed-right-tl,
+.x-panel-header-green-panel-collapsed-right-bl,
+.x-panel-header-green-panel-collapsed-right-ml {
+    padding-left: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-green-panel-collapsed-right-tc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-green-panel-collapsed-right-bc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-green-panel-collapsed-right-tl,
+.x-panel-header-green-panel-collapsed-right-bl,
+.x-panel-header-green-panel-collapsed-right-tr,
+.x-panel-header-green-panel-collapsed-right-br,
+.x-panel-header-green-panel-collapsed-right-tc,
+.x-panel-header-green-panel-collapsed-right-bc,
+.x-panel-header-green-panel-collapsed-right-ml,
+.x-panel-header-green-panel-collapsed-right-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-collapsed-right-corners.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:423 */
+.x-rtl.x-panel-header-green-panel-collapsed-right-tl,
+.x-rtl.x-panel-header-green-panel-collapsed-right-ml,
+.x-rtl.x-panel-header-green-panel-collapsed-right-bl,
+.x-rtl.x-panel-header-green-panel-collapsed-right-tr,
+.x-rtl.x-panel-header-green-panel-collapsed-right-mr,
+.x-rtl.x-panel-header-green-panel-collapsed-right-br {
+    background-image: url(images/panel-header/panel-header-green-panel-collapsed-right-corners-rtl.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-green-panel-collapsed-right-ml,
+.x-panel-header-green-panel-collapsed-right-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-collapsed-right-sides.gif);
+    background-repeat: repeat-y;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-green-panel-collapsed-right-mc {
+    padding: 9px 9px 9px 10px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-panel-header-green-panel-collapsed-right:before {
+    display: none;
+    content: "x-slicer:, frame:1px 1px 1px 1px, corners:url(images/panel-header/panel-header-green-panel-collapsed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-green-panel-collapsed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-green-panel-collapsed-right-sides.gif)" !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-green-panel-collapsed-bottom {
+    -moz-border-radius-topleft: 0.5;
+    -webkit-border-top-left-radius: 0.5;
+    border-top-left-radius: 0.5;
+    -moz-border-radius-topright: 0.5;
+    -webkit-border-top-right-radius: 0.5;
+    border-top-right-radius: 0.5;
+    -moz-border-radius-bottomright: 0.5;
+    -webkit-border-bottom-right-radius: 0.5;
+    border-bottom-right-radius: 0.5;
+    -moz-border-radius-bottomleft: 0.5;
+    -webkit-border-bottom-left-radius: 0.5;
+    border-bottom-left-radius: 0.5;
+    padding: 9px 9px 10px 9px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-green-panel-collapsed-bottom-mc {
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-green-panel-collapsed-bottom {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-green-panel-collapsed-bottom-frameInfo {
+    font-family: dh-1-1-1-1-1-1-1-1-9-9-10-9;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-green-panel-collapsed-bottom-tl {
+    background-position: 0 -2px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-green-panel-collapsed-bottom-tr {
+    background-position: right -3px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-green-panel-collapsed-bottom-bl {
+    background-position: 0 -4px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-green-panel-collapsed-bottom-br {
+    background-position: right -5px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-green-panel-collapsed-bottom-ml {
+    background-position: 0 bottom;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-green-panel-collapsed-bottom-mr {
+    background-position: right bottom;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-green-panel-collapsed-bottom-tc {
+    background-position: 0 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-green-panel-collapsed-bottom-bc {
+    background-position: 0 -1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-green-panel-collapsed-bottom-tr,
+.x-panel-header-green-panel-collapsed-bottom-br,
+.x-panel-header-green-panel-collapsed-bottom-mr {
+    padding-right: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-green-panel-collapsed-bottom-tl,
+.x-panel-header-green-panel-collapsed-bottom-bl,
+.x-panel-header-green-panel-collapsed-bottom-ml {
+    padding-left: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-green-panel-collapsed-bottom-tc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-green-panel-collapsed-bottom-bc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-green-panel-collapsed-bottom-tl,
+.x-panel-header-green-panel-collapsed-bottom-bl,
+.x-panel-header-green-panel-collapsed-bottom-tr,
+.x-panel-header-green-panel-collapsed-bottom-br,
+.x-panel-header-green-panel-collapsed-bottom-tc,
+.x-panel-header-green-panel-collapsed-bottom-bc,
+.x-panel-header-green-panel-collapsed-bottom-ml,
+.x-panel-header-green-panel-collapsed-bottom-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-collapsed-bottom-corners.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-green-panel-collapsed-bottom-ml,
+.x-panel-header-green-panel-collapsed-bottom-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-collapsed-bottom-sides.gif);
+    background-repeat: repeat-y;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-green-panel-collapsed-bottom-mc {
+    padding: 9px 9px 10px 9px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-panel-header-green-panel-collapsed-bottom:before {
+    display: none;
+    content: "x-slicer:, frame:1px 1px 1px 1px, corners:url(images/panel-header/panel-header-green-panel-collapsed-bottom-corners.gif), sides:url(images/panel-header/panel-header-green-panel-collapsed-bottom-sides.gif)" !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:187 */
+.x-panel-header-green-panel-collapsed-left {
+    -moz-border-radius-topleft: 0.5;
+    -webkit-border-top-left-radius: 0.5;
+    border-top-left-radius: 0.5;
+    -moz-border-radius-topright: 0.5;
+    -webkit-border-top-right-radius: 0.5;
+    border-top-right-radius: 0.5;
+    -moz-border-radius-bottomright: 0.5;
+    -webkit-border-bottom-right-radius: 0.5;
+    border-bottom-right-radius: 0.5;
+    -moz-border-radius-bottomleft: 0.5;
+    -webkit-border-bottom-left-radius: 0.5;
+    border-bottom-left-radius: 0.5;
+    padding: 9px 9px 9px 10px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:226 */
+.x-rtl.x-panel-header-green-panel-collapsed-left {
+    background-image: none;
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:237 */
+.x-panel-header-green-panel-collapsed-left-mc {
+    background-color: #060;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:264 */
+.x-nbr .x-panel-header-green-panel-collapsed-left {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:281 */
+.x-panel-header-green-panel-collapsed-left-frameInfo {
+    font-family: dh-1-1-1-1-1-1-1-1-9-9-9-10;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:347 */
+.x-panel-header-green-panel-collapsed-left-tl {
+    background-position: 0 -2px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:351 */
+.x-panel-header-green-panel-collapsed-left-tr {
+    background-position: right -3px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:355 */
+.x-panel-header-green-panel-collapsed-left-bl {
+    background-position: 0 -4px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:359 */
+.x-panel-header-green-panel-collapsed-left-br {
+    background-position: right -5px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:363 */
+.x-panel-header-green-panel-collapsed-left-ml {
+    background-position: left 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:371 */
+.x-panel-header-green-panel-collapsed-left-mr {
+    background-position: left 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:379 */
+.x-panel-header-green-panel-collapsed-left-tc {
+    background-position: 0 0;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:383 */
+.x-panel-header-green-panel-collapsed-left-bc {
+    background-position: 0 -1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:388 */
+.x-panel-header-green-panel-collapsed-left-tr,
+.x-panel-header-green-panel-collapsed-left-br,
+.x-panel-header-green-panel-collapsed-left-mr {
+    padding-right: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:394 */
+.x-panel-header-green-panel-collapsed-left-tl,
+.x-panel-header-green-panel-collapsed-left-bl,
+.x-panel-header-green-panel-collapsed-left-ml {
+    padding-left: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:400 */
+.x-panel-header-green-panel-collapsed-left-tc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:403 */
+.x-panel-header-green-panel-collapsed-left-bc {
+    height: 1px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:407 */
+.x-panel-header-green-panel-collapsed-left-tl,
+.x-panel-header-green-panel-collapsed-left-bl,
+.x-panel-header-green-panel-collapsed-left-tr,
+.x-panel-header-green-panel-collapsed-left-br,
+.x-panel-header-green-panel-collapsed-left-tc,
+.x-panel-header-green-panel-collapsed-left-bc,
+.x-panel-header-green-panel-collapsed-left-ml,
+.x-panel-header-green-panel-collapsed-left-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-collapsed-left-corners.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:423 */
+.x-rtl.x-panel-header-green-panel-collapsed-left-tl,
+.x-rtl.x-panel-header-green-panel-collapsed-left-ml,
+.x-rtl.x-panel-header-green-panel-collapsed-left-bl,
+.x-rtl.x-panel-header-green-panel-collapsed-left-tr,
+.x-rtl.x-panel-header-green-panel-collapsed-left-mr,
+.x-rtl.x-panel-header-green-panel-collapsed-left-br {
+    background-image: url(images/panel-header/panel-header-green-panel-collapsed-left-corners-rtl.gif);
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:453 */
+.x-panel-header-green-panel-collapsed-left-ml,
+.x-panel-header-green-panel-collapsed-left-mr {
+    background-image: url(images/panel-header/panel-header-green-panel-collapsed-left-sides.gif);
+    background-repeat: repeat-y;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/frame.scss:464 */
+.x-panel-header-green-panel-collapsed-left-mc {
+    padding: 9px 9px 9px 10px;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-panel-header-green-panel-collapsed-left:before {
+    display: none;
+    content: "x-slicer:, frame:1px 1px 1px 1px, corners:url(images/panel-header/panel-header-green-panel-collapsed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-green-panel-collapsed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-green-panel-collapsed-left-sides.gif)" !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:631 */
+.x-panel .x-panel-header-green-panel-top {
+    border-bottom-width: 1px !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:635 */
+.x-panel .x-panel-header-green-panel-right {
+    border-left-width: 1px !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:639 */
+.x-panel .x-panel-header-green-panel-bottom {
+    border-top-width: 1px !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:643 */
+.x-panel .x-panel-header-green-panel-left {
+    border-right-width: 1px !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:649 */
+.x-nbr .x-panel-header-green-panel-collapsed-top {
+    border-bottom-width: 0 !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:653 */
+.x-nbr .x-panel-header-green-panel-collapsed-right {
+    border-left-width: 0 !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:657 */
+.x-nbr .x-panel-header-green-panel-collapsed-bottom {
+    border-top-width: 0 !important;
+}
+/* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:661 */
+.x-nbr .x-panel-header-green-panel-collapsed-left {
+    border-right-width: 0 !important;
 }
 /* C:/Users/pc/AppData/Local/Sencha/Sencha Architect 3.5/extracted/ext60-compile/classic/theme-neutral/sass/src/panel/Panel.scss:779 */
 .x-panel-header-green-panel-horizontal .x-tool-after-title {

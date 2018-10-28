@@ -17,27 +17,32 @@ Ext.define('MatrimonyApp.view.RegistrationFormViewController', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.registrationform',
 
-    onSave: function(button, e, eOpts) {
+    onRegistrationClick: function(button, e, eOpts) {
         var form = this.getView(),
             values = form.getForm().getValues(),
             store = this.getStore('users');
 
         // Valid
         if (form.isValid()) {
+            var user=Ext.create('MatrimonyApp.model.User',values);
+            form.getEl().mask('Registering, please wait');
+            user.save({
+                cors:true,
+                success:function(records,options){
+                    console.log(records);
+                    var response=JSON.parse(options.getResponse().responseText);
+                    form.getEl().unmask();
+                    form.getViewModel().set('registrationId',response.data);
+                    form.down('#successMessage').show();
+                    form.down('#failureMessage').hide();
+                },
+                failure:function(records,options){
+                    form.getEl().unmask();
+                    form.down('#failureMessage').show();
+                    form.down('#successMessage').hide();
+                }
+            });
 
-            // TODO: Assign the record's ID from data source
-            // Normally, this value would be auto-generated,
-            // or returned from the server
-            values.id = store.count() + 1;
-
-            // Save record
-            store.add(values);
-
-            // Commit changes
-            store.commitChanges();
-
-            // Complete
-            form.close();
 
         }
     },

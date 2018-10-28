@@ -126,8 +126,8 @@
                 "itemId": null,
                 "maxLength": null,
                 "name": "emailAddress",
-                "regex": "/^\\w+@[a-zA-Z_]+?\\.[a-zA-Z]{2,3}$/",
-                "regexText": "Enter a valid email address"
+                "regex": null,
+                "regexText": null
             },
             "name": "MyTextField3",
             "designerId": "50bb4f37-42ec-4015-94e4-d4101321f487"
@@ -172,6 +172,26 @@
             "designerId": "be5d4580-05a8-4f53-bd92-e0c65d10fa3c"
         },
         {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "allowBlank": false,
+                "designer|createAlias": "religionCombo",
+                "fieldLabel": "Religion",
+                "name": "religion",
+                "store": null
+            },
+            "name": "MyComboBox2",
+            "configAlternates": {
+                "store": "array"
+            },
+            "designerId": "c83cdf6f-af06-4ac6-a6bc-8cbdfa607c8b"
+        },
+        {
             "type": "Ext.form.field.TextArea",
             "reference": {
                 "name": "items",
@@ -212,6 +232,7 @@
                 "fieldLabel": "Password",
                 "inputType": "password",
                 "layout|anchor": null,
+                "name": "password",
                 "regex": "/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,})/",
                 "regexText": "The password must contain one Upper case, one lower case and one numeric character and should be maximum 8 characters"
             },
@@ -262,7 +283,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "fn": "onSave",
+                                "fn": "onRegistrationClick",
                                 "implHandler": [
                                     "var form = this.getView(),",
                                     "    values = form.getForm().getValues(),",
@@ -270,27 +291,32 @@
                                     "",
                                     "// Valid",
                                     "if (form.isValid()) {",
+                                    "var user=Ext.create('MatrimonyApp.model.User',values);",
+                                    "    form.getEl().mask('Registering, please wait');",
+                                    "    user.save({",
+                                    "        cors:true,",
+                                    "        success:function(records,options){",
+                                    "            console.log(records);",
+                                    "            var response=JSON.parse(options.getResponse().responseText);",
+                                    "            form.getEl().unmask();",
+                                    "            form.getViewModel().set('registrationId',response.data);",
+                                    "            form.down('#successMessage').show();",
+                                    "            form.down('#failureMessage').hide();",
+                                    "        },",
+                                    "        failure:function(records,options){",
+                                    "            form.getEl().unmask();",
+                                    "            form.down('#failureMessage').show();",
+                                    "            form.down('#successMessage').hide();",
+                                    "        }",
+                                    "    });",
                                     "",
-                                    "    // TODO: Assign the record's ID from data source",
-                                    "    // Normally, this value would be auto-generated,",
-                                    "    // or returned from the server",
-                                    "    values.id = store.count() + 1;",
-                                    "",
-                                    "    // Save record",
-                                    "    store.add(values);",
-                                    "",
-                                    "    // Commit changes",
-                                    "    store.commitChanges();",
-                                    "",
-                                    "    // Complete",
-                                    "    form.close();",
                                     "",
                                     "}"
                                 ],
                                 "name": "click",
                                 "scope": "me"
                             },
-                            "name": "onSave",
+                            "name": "onRegistrationClick",
                             "designerId": "03162fa0-1631-40c6-93e2-728ba810c383"
                         }
                     ]
@@ -335,6 +361,45 @@
                     ]
                 }
             ]
+        },
+        {
+            "type": "Ext.form.Label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|createAlias": "box",
+                "hidden": true,
+                "html": [
+                    "<b style=\"color:green\">Registration successful</b><br><b style=\"color:green\">Registration id is {registrationId}</b>"
+                ],
+                "itemId": "successMessage",
+                "text": null
+            },
+            "name": "MyLabel1",
+            "configAlternates": {
+                "html": "binding"
+            },
+            "designerId": "51a87794-320c-4372-9a0b-63e4d3aa561f"
+        },
+        {
+            "type": "Ext.form.Label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|createAlias": "box",
+                "hidden": true,
+                "html": "<b style=\"color:red\">Registration failed</b>",
+                "itemId": "failureMessage",
+                "text": null
+            },
+            "name": "MyLabel2",
+            "designerId": "193838cf-41e8-42b4-945c-8328bdfa1d5c"
         },
         {
             "type": "Ext.panel.Tool",

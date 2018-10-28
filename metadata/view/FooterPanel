@@ -14,8 +14,8 @@
             "margin:2",
             "}"
         ],
-        "designer|userAlias": "mypanel11",
-        "designer|userClassName": "MyPanel1",
+        "designer|userAlias": "footerPanel",
+        "designer|userClassName": "FooterPanel",
         "header": false,
         "height": 150,
         "itemId": "FooterPanel",

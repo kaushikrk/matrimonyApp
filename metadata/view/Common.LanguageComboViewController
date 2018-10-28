@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "languagecombo",
-        "designer|userClassName": "LanguageComboViewController"
+        "designer|userAlias": "common.languagecombo",
+        "designer|userClassName": "Common.LanguageComboViewController"
     },
     "designerId": "eaa9a9c7-e8c6-4fa6-98b0-03ef0d34f053"
 }

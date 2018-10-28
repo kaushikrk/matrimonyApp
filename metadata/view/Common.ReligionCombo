@@ -1,0 +1,23 @@
+{
+    "type": "Ext.form.field.ComboBox",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "religionCombo",
+        "designer|userClassName": "Common.ReligionCombo",
+        "fieldLabel": "Religion",
+        "store": [
+            "[\"Hindu\",\"Muslim\",\"Christian\",\"Jew\"]"
+        ]
+    },
+    "name": "MyComboBox6",
+    "configAlternates": {
+        "store": "array"
+    },
+    "designerId": "9c000038-f529-48e8-8fed-1e1b92f60d8f",
+    "viewControllerInstanceId": "d6ccdfbd-7fd6-4f24-bb58-41266e757bf5",
+    "viewModelInstanceId": "97fb5670-0feb-430d-bcb7-746094128d4d"
+}
